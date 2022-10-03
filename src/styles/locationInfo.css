@@ -1,0 +1,36 @@
+.card__info{
+    display: flex;
+    background-color: #062226;
+    padding: 1.5rem;
+    padding: 1rem;
+    margin: 30px;
+    
+}
+
+
+
+.card__info-name{
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card__info-ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.card__info-ul span{
+    color: rgb(25, 187, 55)
+}
+
+.card__info-li{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

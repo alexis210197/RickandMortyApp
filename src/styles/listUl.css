@@ -1,0 +1,21 @@
+.list__ul{
+    background-color: #062226;
+    border: 2px solid rgba(255, 255, 255, 0.108);
+    max-height: 150px;
+    width: 430px;
+    overflow-y: scroll;
+    overscroll-behavior-y: auto;
+    position: absolute;
+    text-align: center;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.list__ul::-webkit-scrollbar:active{
+    background-color: #ffffff17;
+}
+
